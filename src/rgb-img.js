@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Image(props) {
-  return <img src={props.} alt={props.text} />
+  return <img src={props.src} alt={props.text} />
 }
 
 Image.propTypes = {
