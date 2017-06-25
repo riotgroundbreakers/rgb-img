@@ -1,3 +1,3 @@
-# Text
+# Image
 
-Text component for reactriot2017/groundbreakers
+Image component for reactriot2017/groundbreakers

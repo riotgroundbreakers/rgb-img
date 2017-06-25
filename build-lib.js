@@ -9,14 +9,14 @@ var path = require('path');
 var config = {
   devtool: 'sourcemap',
   entry: {
-    index: './src/rgb-text.js'
+    index: './src/rgb-img.js'
   },
   output: {
     path: path.join(__dirname, 'lib'),
     publicPath: 'lib/',
-    filename: 'rgb-text.js',
-    sourceMapFilename: 'rgb-text.map',
-    library: 'RgbText',
+    filename: 'rgb-img.js',
+    sourceMapFilename: 'rgb-img.map',
+    library: 'RgbImg',
     libraryTarget: 'umd'
   },
   module: {
